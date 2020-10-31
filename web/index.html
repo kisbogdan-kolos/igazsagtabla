@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="black.css">
+	<title>Igazságtábra készítő program</title>
+</head>
+<body>
+	<div>
+		<h1>Igazságtábla készítő program</h1>
+		<div>
+			<label>Kifejezés: </label>
+			<input type="text" autocomplete="off" id="input" style="width: 200px;">
+			<br>
+			<label>Műveleti jelek hozzáadása</label>
+			<button id="neg">⅂</button>
+			<button id="or">∨</button>
+			<button id="xor">∆</button>
+			<button id="and">∧</button>
+			<button id="imp">⇒</button>
+			<button id="ekv">⇔</button><br>
+			<button id="a">A</button>
+			<button id="b">B</button>
+			<button id="c">C</button>
+			<button id="d">D</button>
+			<button id="ob">(</button>
+			<button id="cb">)</button>
+		</div>
+		<button id="calc">Számolás</button>
+		<p><b>Eredmény:</b></p>
+		<div id="result">
+		</div>
+	</div>
+	<footer>© Kis-Bogdán Kolos 2020</footer>
+	<script src="main.js"></script>
+</body>
+</html>
